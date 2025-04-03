@@ -1,3 +1,40 @@
+header {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  justify-content: flex-start; /* Align the items to the left */
+}
+
+header p {
+  margin: 0 15px; /* Add some spacing between the text */
+  font-size: 16px; /* Adjust text size */
+  font-weight: bold; /* Optional: make the text bold */
+  cursor: pointer; /* Change cursor to pointer for interactivity */
+  border: 2px solid #000; /* Add a border */
+  padding: 5px 10px; /* Add some padding */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#tour {
+  color: purple ;
+  
+}
+
+
 body {
-  background-color: aliceblue;
+  background-color: rgb(138, 199, 252);
+}
+
+thead tr {
+  border-bottom: 3px solid #000;
+}
+
+thead th {
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+tbody td {
+  background-color: #ffffff;
+  color: #000;
 }
